@@ -8,6 +8,9 @@ Spatial panners, encoders, decoders and tools for ATLAS Black Box
 - Analog and Dante network inputs
 - Up to 5th order ambisonic resolution (1st through 3rd are most common)
 
+![Black Box Speaker Layout](/images/ATLAS_BBSpeakerLayout.png)
+
+
 ## Typcical Signal Flow
 
 ## System Input
