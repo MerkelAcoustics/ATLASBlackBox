@@ -15,7 +15,9 @@ Spatial panners, encoders, decoders and tools for ATLAS Black Box
 
 ## System Input
 Interfacing with the spatial audio system is done through the built-in house Dante network. There are numerous Dante access drop points throughout the Black Box on the I/O panels on the walls. A basic Cat6 cable is all that is needed to access the Dante network. Please note that the Dante network runs exclusively at 48kHz sample rate.
+
 Users can access the Dante network through Dante-enabled hardware (like the Grace Mic Pre or Midas console) or from a computer using Dante Virtual Soundcard or Dante VIA. The Dante routing can be set using the Dante Controller software on any computer on the Dante Network though this shouldn’t be often needed.
+
 NOTE: The Dante network is an isolated network that isn’t connected to the internet so if you’re using Dante Virtual Soundcard you will not have internet access at the same time.
 
 ## Mac Mini Decoder/Middleware
@@ -27,9 +29,9 @@ There is a Mac Mini located in the upstairs audio control room that acts as an i
 
 The Mac Mini can be bypassed if the user wants to connect to the speakers directly without ambisonic decoding, but it should be noted that bass management will not be used.
 Decoder Software Description
-Ambisonic Decoder – Takes in 16 channels of 3rd order ambisonic encoded tracks with AmbiX SN3D formatting by default. Other decoding schemes can be used as well but must be set manually in the Max patch.
-Bass Management – The mains crossover frequency is set to 90 Hz by default with a 3rd order (18 dB/octave) roll-off.
-Source Remapping – This is a second (non-default) patch that allows for remapping of stereo/surround input material. It acts as both an encoder and decoder simultaneously and allows for positioning of the virtual speaker sources wherever the user desired. This is useful for playing back content that is already panned (non-object based mixes).
+**Ambisonic Decoder** – Takes in 16 channels of 3rd order ambisonic encoded tracks with AmbiX SN3D formatting by default. Other decoding schemes can be used as well but must be set manually in the Max patch.
+**Bass Management** – The mains crossover frequency is set to 90 Hz by default with a 3rd order (18 dB/octave) roll-off.
+**Source Remapping** – This is a second (non-default) patch that allows for remapping of stereo/surround input material. It acts as both an encoder and decoder simultaneously and allows for positioning of the virtual speaker sources wherever the user desired. This is useful for playing back content that is already panned (non-object based mixes).
 
 ## System Output
 Dante D/A Converter
