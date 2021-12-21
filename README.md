@@ -29,10 +29,13 @@ There is a Mac Mini located in the upstairs audio control room that acts as an i
 - System Gain Control
 
 The Mac Mini can be bypassed if the user wants to connect to the speakers directly without ambisonic decoding, but it should be noted that bass management will not be used.
-Decoder Software Description
-**Ambisonic Decoder** – Takes in 16 channels of 3rd order ambisonic encoded tracks with AmbiX SN3D formatting by default. Other decoding schemes can be used as well but must be set manually in the Max patch.
-**Bass Management** – The mains crossover frequency is set to 90 Hz by default with a 3rd order (18 dB/octave) roll-off.
-**Source Remapping** – This is a second (non-default) patch that allows for remapping of stereo/surround input material. It acts as both an encoder and decoder simultaneously and allows for positioning of the virtual speaker sources wherever the user desired. This is useful for playing back content that is already panned (non-object based mixes).
+**Decoder Software Description**
+
+Ambisonic Decoder – Takes in 16 channels of 3rd order ambisonic encoded tracks with AmbiX SN3D formatting by default. Other decoding schemes can be used as well but must be set manually in the Max patch.
+
+Bass Management – The mains crossover frequency is set to 90 Hz by default with a 3rd order (18 dB/octave) roll-off.
+
+Source Remapping – This is a second (non-default) patch that allows for remapping of stereo/surround input material. It acts as both an encoder and decoder simultaneously and allows for positioning of the virtual speaker sources wherever the user desired. This is useful for playing back content that is already panned (non-object based mixes).
 
 ## System Output
 Dante D/A Converter
