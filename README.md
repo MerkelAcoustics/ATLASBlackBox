@@ -1,5 +1,5 @@
-# ATLASBlackBox
-Spatial panners, encoders, decoders and tools for ATLAS Black Box
+# ATLAS Black Box at CU Boulder
+The ATLAS Black Box is a multi-use space located at the University of Colorado Boulder. This repo acts as the user manual as well as the software repository for interacting with the sytem
 
 ## System Overview
 - 40 x 8” coaxial main speakers with discreet amplification
@@ -12,6 +12,7 @@ Spatial panners, encoders, decoders and tools for ATLAS Black Box
 
 
 ## Typcical Signal Flow
+![Black Box Signal Flow](/images/BBsignalflow.png)
 
 ## System Input
 Interfacing with the spatial audio system is done through the built-in house Dante network. There are numerous Dante access drop points throughout the Black Box on the I/O panels on the walls. A basic Cat6 cable is all that is needed to access the Dante network. Please note that the Dante network runs exclusively at 48kHz sample rate.
